@@ -397,6 +397,7 @@ public class AlumPanel extends javax.swing.JPanel {
         HashMap<String, Alumni> m = al.getAlumniDir();
         System.out.println("Map "+ m.size());
         Alumni al1 = m.get(id);
+        System.out.println("");
         al1.setGradutationYear(Integer.parseInt(AlumgradyearTxt.getText()));
         al1.setSalaryRange(Integer.parseInt(AlumSalTxt.getText()));
         Employers emp = al1.getEmp();
